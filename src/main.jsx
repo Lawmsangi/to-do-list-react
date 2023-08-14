@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import TodoApp from '@/components/TodoApp';
-import '@/styles/app.css';
+import '@/css/app.css';
 import { BrowserRouter as Router } from "react-router-dom"
 
 const domContainer = document.getElementById("root");
