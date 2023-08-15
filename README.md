@@ -49,7 +49,7 @@
 
 - Use Single Page Application😊👌
 - Perform Calculations💯
-- UDisplay quotes .🚀
+- Display quotes .🚀
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +81,6 @@ Clone this repository to your desired folder:
 ### Install
 
 Install this project with:
-  cd my-portfolio
   npm install
 
 ### Usage
