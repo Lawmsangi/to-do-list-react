@@ -1,5 +1,5 @@
 import TodoItem from '@/components/TodoItem';
-import React from 'react';
+import PropTypes from 'prop-types';
 
 const TodosList = ({ todosProps, setTodos,delTodo,setUpdate }) => {
   return (
@@ -15,5 +15,11 @@ const TodosList = ({ todosProps, setTodos,delTodo,setUpdate }) => {
       ))}
     </ul>
   );
+};
+TodosList.propTypes = {
+  todosProps: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.number, PropTypes.string, PropTypes.bool)).isRequired,
+  setTodos: PropTypes.func.isRequired,
+  delTodo: PropTypes.func.isRequired,
+  setUpdate: PropTypes.func.isRequired,
 };
 export default TodosList;

@@ -1,5 +1,5 @@
 import { useAuthContext } from '@/context/AuthContext';
-import styles from '@/styles/Profile.module.css';
+import styles from '@/css/Profile.module.css';
 
 const Profile = () => {
   const { user } = useAuthContext();
